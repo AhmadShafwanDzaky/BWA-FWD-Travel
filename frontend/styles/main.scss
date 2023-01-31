@@ -1,6 +1,7 @@
 body {
-    background-color: #e4e6eb;
+    background-color: #fff;
     font-family: 'Assistant', sans-serif;
+    font-weight: 600;
     color: #071C4D;
 
 }
@@ -48,7 +49,7 @@ body {
 header {
     padding: 180px 0 165px;
     margin-top: -70px;
-    background-image: url('../images/header-1.jpg');
+    background-image: url('../images/header-1-v2.jpg');
     background-size: cover;
 
     h1, p {
@@ -87,7 +88,7 @@ header {
     .stats-detail {
         padding-top: 15px;
         background-color: #ffffff;
-        padding-left: 40px;
+        padding-left: 65px;
     }
 
     h2 {
@@ -99,5 +100,183 @@ header {
     p {
         font-size: 20px;
         font-weight: normal;
+    }
+}
+
+// popular
+.section-popular {
+    min-height: 540px;
+    background-color: #051334;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-popular-heading {
+        margin-top: 150px;
+        
+        h2,p {
+            color: #ffffff;
+        }
+
+        h2 {
+            font-family: 'Playfair Display',
+                serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-weight: 18px;
+        }
+    }
+}
+
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            min-width: 260px;
+            background-color: #ffffff;
+            color: #ffffff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country {
+            font-size: 18px;
+            color: #ffffff;
+            
+        }
+        
+        .travel-location {
+            font-size: 26px;
+            font-weight: 500;
+            color: #ffffff;
+
+        }
+
+        .travel-button {
+            padding-top: 8px !important;
+            padding-bottom: 8px !important;
+            padding-left: 16px !important;
+            padding-right: 16px !important;
+            .btn-travel-details {
+                background-color: #FF9E53;
+                color: #ffffff;
+
+            &:hover {
+                background-color: #ffbc89;
+                color: #ffffff;
+            }
+            }
+        }
+    }
+}
+
+.section-networks {
+    background-color: #ffffff;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.section-testimonial-heading {
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+    
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+    
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-content {
+        min-height: 380px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .testimonial {
+        font-weight: 200;
+        font-size: 26px;
+        color: #6e6e6e;
+        min-height: 180px;
+    }
+
+    .trip-to {
+        font-size: 22px;
+        color: #6e6e6e;
+    }
+
+    hr {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .btn-get-started-testimonial {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        background-color: #f2f2f2;
+        background-color: #FF9E53;
+        color: #fff;
+
+        &:hover {
+            background-color: #ffbc89;
+            color: #fff;
+        }
+    }
+    
+    .btn-need-help {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        color: #FF9E53;
+        font-weight: 500;
+
+        &:hover {
+            background-color: #ffe1ca;
+            color: #FF9E53;
+        }
+    }
+}
+
+.section-footer {
+    a {
+        color: #071C4D;
     }
 }
